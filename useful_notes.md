@@ -10,3 +10,7 @@ https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
 typeset -g ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=6'
 
 plugins=(git autojump zsh-autosuggestions)
+
+
+### git log显示乱码
+export LESSCHARSET=utf-8
