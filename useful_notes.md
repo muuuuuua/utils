@@ -25,3 +25,7 @@ https://github.com/tmux-plugins/tmux-continuum
 # 其他
 ### git log显示乱码
 export LESSCHARSET=utf-8
+
+### mac使用linux的date
+brew install coreutils
+alias date='/usr/local/bin/gdate'
