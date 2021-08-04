@@ -23,9 +23,12 @@ https://github.com/tmux-plugins/tpm
 https://github.com/tmux-plugins/tmux-continuum
 
 # 其他
+### mac date/ll 显示英文星期
+export LANG=en_US.UTF-8
+
 ### git log显示乱码
 export LESSCHARSET=utf-8
 
 ### mac使用linux的date
-brew install coreutils
+brew install coreutils  
 alias date='/usr/local/bin/gdate'
