@@ -31,4 +31,6 @@ export LESSCHARSET=utf-8
 
 ### mac使用linux的date
 brew install coreutils  
-alias date='/usr/local/bin/gdate'
+brew install gnu-sed  
+alias date='/usr/local/bin/gdate'  
+alias sed='/usr/local/bin/gsed'  
